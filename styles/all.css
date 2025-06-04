@@ -1,0 +1,248 @@
+     .body {
+        height: 2000px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+      }
+
+      .body-box {
+        background-color:rgb(243, 237, 255);
+        display: inline-block;
+        width: 1100px;
+        height: 5000;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 185px;
+        padding-bottom: 950px;
+        place-self: center;
+        align-content: center;
+        border: solid;
+        border-radius: 20px;
+        border-width: 10px;
+        border-color: rgb(170, 161, 125);
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 10);
+      }
+      
+
+      p, h1 {
+        font-family:'Lucida Sans';
+      }
+
+      .page-header {
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 13px;
+        margin-top: 160px;
+        place-self: center;
+        width: 1000px;
+        border-bottom: solid;
+        border-bottom-color: rgb(149, 113, 83);
+      }
+
+      .under-header {
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .work-header {
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius:4px;
+        border-bottom: solid;
+        width: 600px;
+        border-bottom-color: rgb(149, 113, 83);
+        margin-top: 100px;
+      }
+
+      .work-header-box {
+        place-items: center;
+        display: grid;
+      
+      }
+
+      .painting-alignment {
+        display: inline-block;
+        place-items: center;
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        width: 350px;
+        height: 430px;
+        padding-top: 1px;
+        margin-top: 140px;
+        margin-left: 158px;
+        margin-right: 28px;
+        margin-bottom: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: rgb(191, 135, 86);
+        box-shadow: 2px 2px 5px;
+      }
+
+      .img-painting {
+        width: 300px;
+        margin-bottom: 20px;
+        border: solid;
+        border-radius: 20px;
+        border-color:rgb(191, 135, 86);
+        cursor: pointer;
+      }
+
+
+      .button-painting-box {
+        display: grid;
+        align-self: center;
+        margin-right: 155px;
+      }
+
+      .button-painting {
+        font-family: 'Lucida Sans';
+        border: solid;
+        border-radius: 9px;
+        background-color: rgb(180, 206, 115);
+        font-weight: bold;
+        border-color: rgb(107, 125, 61);
+        cursor: pointer;
+        margin-top: 0px;
+        background-color: rgb(243, 237, 255);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 30);
+        transition: opacity 0.15s, padding-left 0.15s, padding-right 0.15s, padding-top 0.15s, padding-bottom 0.15s; 
+      }
+
+      .button-painting:hover {
+        opacity: 0.8;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+      }
+
+      .button-painting:active {
+        opacity: 1;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .sketch-alignment {
+        display: inline-block;
+        place-items: center;
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        width: 350px;
+        height: 430px;
+        padding-top: 1px;
+        margin-top: 140px;
+        margin-left: 50px;
+        margin-right: 90px;
+        margin-bottom: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: rgb(191, 135, 86);
+        box-shadow: 2px 2px 5px;
+      }
+
+      .img-sketch {
+        width: 300px;
+        height: 216px;
+        margin-bottom: 18px;
+        border: solid;
+        border-radius: 20px;
+        border-color:rgb(191, 135, 86);
+        cursor: pointer;
+        object-fit: cover;
+      }
+
+      .digitalart-alignment {
+        display: inline-block;
+        place-items: center;
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        width: 350px;
+        height: 430px;
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-left: 158px;
+        margin-right: 28px;
+        margin-bottom: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: rgb(191, 135, 86);
+        box-shadow: 2px 2px 5px;
+      }
+
+      .img-digitalart {
+        width: 300px;
+        height: 230px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: solid;
+        border-radius: 20px;
+        border-color:rgb(191, 135, 86);
+        cursor: pointer;
+      }
+
+      .animation-alignment {
+        display: inline-block;
+        place-items: center;
+        text-align: center;
+        background-color:rgb(255, 255, 255);
+        width: 350px;
+        height: 430px;
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: 90px;
+        margin-bottom: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: rgb(191, 135, 86);
+        box-shadow: 2px 2px 5px;
+      }
+
+      .egg-animation {
+        width: 300px;
+        height: 230px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        border: solid;
+        border-radius: 20px;
+        border-color:rgb(191, 135, 86);
+        cursor: pointer;
+      }
+     .contact, .about, .fb, .insta {
+      font-family: 'Lucida Sans';
+      font-size: 20px;
+      font-weight: bold;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      padding-top: 14px;
+      padding-left: 20px;
+      width: 1000px;
+      height: 40px;
+      border-bottom: solid;
+      border-bottom-color: rgb(149, 113, 83);
+      place-self: center;
+      cursor: pointer;
+      text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.40);
+      box-shadow: 2px 2px 5px;
+     }
+
+     .contact {
+      margin-top: 80px;
+     }
